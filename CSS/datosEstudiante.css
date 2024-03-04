@@ -1,0 +1,144 @@
+/* |||||||||||||||||||||||||||||||||||| */
+
+/*           Documento Global           */
+/* ____________________________________ */
+html{
+    font-size: 141%;
+}
+
+body{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-AoGvCbNWFDo%2FWDTkIRjNH9I%2FAAAAAAAAYww%2Fbuhg_fatcWs7DhIsflQaEJ-6qVY0WzNMQCK4B%2Fs770%2Fhogwarts.jpg&f=1&nofb=1&ipt=95a6ff8b83c62abdf59303be4c64e30695397c54ab588f2fa20015964b22457f&ipo=images');
+    background-repeat: no-repeat;
+    background-size: 100%;  
+   
+    padding: 4.5%;
+    font-family: 'Harry Potter', sans-serif;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 100%;
+}
+
+.formulario{
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 2rem;
+    border-radius: 15%;
+}
+
+/* ____________________________________ */
+
+/*                Header               */
+/* ____________________________________ */
+
+h1{
+    color: rgba(247, 185, 17, 0.829);
+    margin-left: 2.25rem;
+}
+
+/* ____________________________________ */
+
+/*                 Form                 */
+/* ____________________________________ */
+
+.contenedorFormElements{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+
+.contenedorImagen{
+    display: grid;
+    justify-content: center;
+    
+    img{
+        width: 12rem;
+        border-radius: 10rem;
+    }
+}
+
+
+.formElement{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    label{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    };
+
+    input{
+        font-size: 0.8rem;
+        width: 13.5rem;
+        border-radius: 0.3rem;
+        border-color: goldenrod;
+        background-color: rgba(128, 128, 128, 0.438);
+        color: white;
+    }
+
+    select{
+        font-size: 0.8rem;
+        width: 13.7rem;
+        border-radius: 0.3rem;
+        border-color: goldenrod;
+        background-color: rgba(58, 58, 58, 0.647);
+        color: white;
+    }
+}
+
+.irCena{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 1rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 1rem;
+    border: goldenrod 2px groove;
+    background-color: #4D3924;
+        
+    #submit{
+        grid-column-start: 1;
+        grid-column-end: 3; 
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+footer{
+    justify-content: left;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+
+    #logoHogwarts {
+        img{
+            border-radius: 20rem;
+        }
+    
+    }
+}
+/* //|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* __________________________________________________________________________ */
+
+/*                        Paso 8 - Adicional 2 */
+/* __________________________________________________________________________ */
+
+/*                              Resumen
+    */
+
+/*                            Instrucciones */
+/*  Realizar CSS de Hogwarts para la creación del primer objeto, realizarlo 
+    en forma formulario, poner imagen avatar del estudiante y el entorno tema 
+    de Hogwarts.*/
+
+/*  e ir realizando cada una de las clases que realizaron en el taller, 
+Transformaciones, Pociones, y defensa contra las artes oscuras.*/
+
+/*  -------------------------- Objeto -------------------------- */

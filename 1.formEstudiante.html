@@ -1,0 +1,163 @@
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+<!--                        Paso 8 - Adicional 2 -->
+<!-- __________________________________________________________________________ -->
+
+<!--                              Resumen-->
+
+<!--                            Instrucciones -->
+<!--  Realizar CSS de Hogwarts para la creación del primer objeto, realizarlo 
+    en forma formulario, poner imagen avatar del estudiante y el entorno tema 
+    de Hogwarts -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+                
+    <title>Hogwarts || Formulario de Ingreso</title>
+
+    <link rel="stylesheet" href="CSS/formEstudiante.css">
+
+</head>
+<body>
+
+    <h1>BIENVENIDO A HOGWARTS</h1>
+
+    <section class="formulario" id="formulario" >
+        
+        <h2>SESION DE REGISTRO</h2>
+
+        <form class="formInicial">
+            <section class="contenedorFormElements" id="contenedorFormElements">
+                    
+                <section class="contenedorImagen" id="contenedorImagen">
+                    <section class="formElement" id="imagenForm">
+                    
+                    </section>
+                </section>
+            
+                
+                <section class="contenedorDatos">
+                    <section class="formElement" id="nombreForm">
+                        <label>NOMBRE</label>
+                        <input type="text" placeholder="Ingresa tu Nombre">
+                    </section>
+
+                    <br>
+
+                    <section class="formElement" id="edadForm">
+                        <label>EDAD</label>
+                        <input type="text" placeholder="Ingresa tu Edad">
+                    </section>
+
+                    <br>
+
+                    <section class="formElement" id="familiaForm">
+                        <label>FAMILIA</label>
+                        <input type="text" placeholder="Ingresa tu Familia">
+                    </section>
+
+                    <br>
+
+                    <section class="formElement" id="contenedorLinajes">
+                        <label>LINAJE</label>
+                        <select name="linajeForm" id="linajeForm">
+                            <option value="Selecciona Tu Linaje">Selecciona Tu Linaje</option>
+                            <option value="Mestizo">Mestizo</option>
+                            <option value="Muggle">Muggle</option>
+                            <option value="Sangre pura">Sangre pura</option>
+                        </select>
+                    </section>
+
+                    <br>
+
+                    <section class="formElement" id="contenedorCualidadesForm">
+                        <label>CUALIDADES</label>
+                        <select name="cualidadesForm" id="cualidadesForm">
+                            <option value="Selecciona Tus Cualidades">Selecciona Tus Cualidades</option>
+                            <option value="Valor, Fuerza, Audacia">Valor, Fuerza, Audacia</option>
+                            <option value="Justicia, Lealtad, Paciencia">Justicia, Lealtad, Paciencia</option>
+                            <option value="Creatividad, Erudición, Inteligencia">Creatividad, Erudición, Inteligencia</option>
+                            <option value="Ambición, Determinación, Astucia">Ambición, Determinación, Astucia</option>
+                        </select>
+                    </section>
+                </section>
+            </section>    
+        </form>
+        
+        <section class="botonesDeAccion">
+            <section class="botonEnviar" id="botonEnviar">
+                <input type="submit" value="Enviar" id="submit" hidden>
+            </section>   
+        </section>
+    </section>
+
+    <!-- 2. Datos Estudiante -->
+    <section class="datosEstudiante" id="datosEstudiante" hidden>
+        <h3>DATOS DEL ESTUDIANTE</h3> 
+        
+        <section class="contenedorDataElements">
+            <section class="contenedorImagen" id="contenedorImagen">
+
+            </section>
+        
+            
+            <section class="contenedorDatosAlmacenados">
+                <section class="dataElement" id="nombreAlmacenado">
+                    <label>NOMBRE</label>
+                    <p></p>
+                </section>
+
+                <br>
+
+                <section class="dataElement" id="edadAlmacenada">
+                    <label>EDAD</label>
+                    <p></p>
+                </section>
+
+                <br>
+
+                <section class="dataElement" id="familiaAlmacenada">
+                    <label>FAMILIA</label>
+                    <p></p>
+                </section>
+
+                <br>
+
+                <section class="dataElement" id="linajeAlmacenado">
+                    <label>LINAJE</label>
+                    <p></p>
+                </section>
+
+                <br>
+
+                <section class="dataElement" id="contenedorCualidadesAlmacenadas">
+                    <label>CUALIDADES</label>
+                    <p></p>
+                </section>
+
+                <section class="btnIrCena2" id="btnIrCena">
+                    <input type="submit" value="Ir a la Cena" id="submit">
+                </section>   
+                
+            </section>
+
+        </section>    
+    </section>
+
+
+    <footer>
+        <a href="#" id="logoHogwarts"><img src="img\logoHogwarts.jpg" alt="" width="70rem"></a>
+        Copyright 2023 | Samuel Quintero Solís 2023
+    </footer>
+
+    <script src="JS/1_DB.js"></script>
+    <script src="JS/2_App.js"></script>
+
+</body>
+</html>

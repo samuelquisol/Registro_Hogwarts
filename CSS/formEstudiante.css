@@ -1,0 +1,382 @@
+/* |||||||||||||||||||||||||||||||||||| */
+
+/*           Documento Global           */
+/* ____________________________________ */
+html{
+    font-size: 141%;
+}
+
+body{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-AoGvCbNWFDo%2FWDTkIRjNH9I%2FAAAAAAAAYww%2Fbuhg_fatcWs7DhIsflQaEJ-6qVY0WzNMQCK4B%2Fs770%2Fhogwarts.jpg&f=1&nofb=1&ipt=95a6ff8b83c62abdf59303be4c64e30695397c54ab588f2fa20015964b22457f&ipo=images');
+    background-repeat: no-repeat;
+    background-size: 100%;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4.5%;
+    font-family: 'Harry Potter', sans-serif;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 100%;
+}
+
+@media screen and (max-width: 2000px) {
+    /* CSS code for devices with screens until 426px */
+    body{
+        background-size: 150rem;
+        background-position-x: left;
+    }
+}
+
+#logoHogwarts {
+    img{
+        border-radius: 20rem;
+    }
+
+}
+
+.formulario{
+    background-color: rgba(0, 0, 0, 0.275);
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.datosEstudiante{
+    background-color: rgba(106, 106, 106, 0.275);
+    border-radius: 15%;
+}
+
+/* ____________________________________ */
+
+/*                Header               */
+/* ____________________________________ */
+
+h1{
+    color: rgba(247, 185, 17, 0.829);
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* ____________________________________ */
+
+/*                 Form                 */
+/* ____________________________________ */
+
+.contenedorFormElements{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+
+.contenedorImagen img{
+    width: 12rem;
+    border-radius: 10rem;
+}
+
+.formElement{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    label{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    };
+
+    input{
+        font-size: 0.8rem;
+        width: 13.5rem;
+        border-radius: 0.3rem;
+        border-color: goldenrod;
+        background-color: rgba(128, 128, 128, 0.438);
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    select{
+        font-size: 0.8rem;
+        width: 13.7rem;
+        border-radius: 0.3rem;
+        border-color: goldenrod;
+        background-color: rgba(58, 58, 58, 0.647);
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+.botonEnviar{
+    display: grid;
+    margin-top: 1rem;
+    height: 2rem;
+    
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    text-decoration: none;
+
+    align-items: center;
+    
+
+    #submit{
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        border-color: goldenrod;
+        background-color: #4D3924;
+        height: 2rem;
+        
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+    };
+
+    #nuevaOpcion{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        width: 14rem;
+    
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        border: goldenrod 2px groove;
+        background-color: #4D3924;
+        color: white;
+        
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+}
+
+footer{
+    justify-content: left;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* ____________________________________ */
+
+/*            Datos Usuario             */
+/* ____________________________________ */
+
+.contenedorDataElements{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+    gap: 1rem;
+}
+
+.contenedorImagen{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        width: 12rem;
+        border-radius: 10rem;
+    }
+}
+
+.dataElement{
+
+    label{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -2.5rem
+    };
+
+    p{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: -0.1rem
+    }
+    
+    input{
+        font-size: 0.8rem;
+        width: 13.5rem;
+        border-radius: 0.3rem;
+        border-color: goldenrod;
+        background-color: rgba(128, 128, 128, 0.438);
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+.irCena{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 1rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 1rem;
+    border: goldenrod 2px groove;
+    background-color: #4D3924;
+        
+    #submit{
+        grid-column-start: 1;
+        grid-column-end: 3; 
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.btnIrCena{
+    display: grid;
+    height: 2rem;
+    
+    grid-template-columns: auto;
+    gap: 1rem;
+    text-decoration: none;
+
+    #submit{
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        border-color: goldenrod;
+        background-color: #4D3924;
+        height: 2rem;
+        
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        
+        grid-column-start: 1;
+        grid-column-end: 3;
+    };
+
+    #nuevaOpcion{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        width: 14rem;
+    
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        border: goldenrod 2px groove;
+        background-color: #4D3924;
+        color: white;
+        
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+}
+
+.btnIrCena2{
+    display: grid;
+    height: 2rem;
+    
+    grid-template-columns: auto;
+    gap: 1rem;
+    text-decoration: none;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    #submit{
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        border-color: goldenrod;
+        background-color: #4D3924;
+        height: 2rem;
+        
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        
+        grid-column-start: 1;
+        grid-column-end: 3;
+    };
+
+    #nuevaOpcion{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        width: 14rem;
+    
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        border: goldenrod 2px groove;
+        background-color: #4D3924;
+        color: white;
+        
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    /* CSS code for devices with screens until 426px */
+
+    html{
+        font-size: 130%;
+    }
+    
+    body{
+        header{
+            display: grid;
+            justify-content: center;
+            margin-right: 15%;
+    
+            h1{
+                font-size: 95%;
+            }
+        };
+    
+        .contenedorFormElements{
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    footer{
+        font-size: 75%;
+        margin-left: auto;
+        
+    }
+}
+
+/* //|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* __________________________________________________________________________ */
+
+/*                        Paso 8 - Adicional 2 */
+/* __________________________________________________________________________ */
+
+/*                              Resumen
+    */
+
+/*                            Instrucciones */
+/*  Realizar CSS de Hogwarts para la creación del primer objeto, realizarlo 
+    en forma formulario, poner imagen avatar del estudiante y el entorno tema 
+    de Hogwarts.*/
+
+/*  e ir realizando cada una de las clases que realizaron en el taller, 
+Transformaciones, Pociones, y defensa contra las artes oscuras.*/
+
+/*  -------------------------- Objeto -------------------------- */
